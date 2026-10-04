@@ -18,10 +18,13 @@
 
 **Expected result:**
 
-- Row 2 input field is displayed.
+- Row 2 input field is displayed after the loading period.
 
-**Actual result:** Not executed  
-**Status:** Not Run  
+**Actual result:**
+
+- Row 2 appeared after the loading period and the input field was displayed.
+
+**Status:** Pass  
 **Automation:** Implemented in `selenium-tests`
 
 ---
@@ -43,8 +46,12 @@
 - The value is saved.
 - Confirmation message `Row 2 was saved` is displayed.
 
-**Actual result:** Not executed  
-**Status:** Not Run  
+**Actual result:**
+
+- The value was accepted and saved.
+- Confirmation message `Row 2 was saved` was displayed.
+
+**Status:** Pass  
 **Automation:** Implemented in `selenium-tests`
 
 ---
@@ -63,12 +70,18 @@
 
 **Expected result:**
 
-- The new value is accepted.
+- The input becomes editable.
+- The new value is saved.
 - Confirmation message `Row 1 was saved` is displayed.
 
-**Actual result:** Not executed  
-**Status:** Not Run  
-**Automation:** Scenario exists in `selenium-tests`, but the current test needs cleanup
+**Actual result:**
+
+- Row 1 became editable after clicking Edit.
+- The new value was entered and saved.
+- Confirmation message `Row 1 was saved` was displayed.
+
+**Status:** Pass  
+**Automation:** Scenario exists in `selenium-tests`; the current automated test needs cleanup because of a duplicate test name
 
 ---
 
@@ -87,8 +100,11 @@
 
 - The instructions are no longer displayed after Row 2 is added.
 
-**Actual result:** Not executed  
-**Status:** Not Run  
+**Actual result:**
+
+- The instructions were removed after Row 2 was added.
+
+**Status:** Pass  
 **Automation:** Implemented in `selenium-tests`
 
 ---
@@ -101,13 +117,17 @@
 
 1. Open the page.
 2. Click Add.
-3. Observe how long it takes for Row 2 to become available.
+3. Observe the loading period before Row 2 becomes available.
 
 **Expected result:**
 
 - Row 2 does not appear immediately.
-- The application displays the new row after the loading period.
+- Row 2 appears after the page loading delay.
 
-**Actual result:** Not executed  
-**Status:** Not Run  
-**Automation:** Current automation scenario needs improvement
+**Actual result:**
+
+- Row 2 was not immediately available.
+- It appeared after the expected loading period.
+
+**Status:** Pass  
+**Automation:** The current timeout example in `selenium-tests` needs improvement to represent this scenario correctly
