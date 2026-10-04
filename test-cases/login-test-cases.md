@@ -28,8 +28,13 @@ Valid password: `Password123`
 - The page confirms successful login.
 - Log out button is displayed.
 
-**Actual result:** Not executed  
-**Status:** Not Run  
+**Actual result:**
+
+- Login was successful.
+- User was redirected to the logged-in page.
+- Successful login text and Log out button were displayed.
+
+**Status:** Pass  
 **Automation:** Implemented in `selenium-tests`
 
 ---
@@ -50,8 +55,12 @@ Valid password: `Password123`
 - Login is rejected.
 - Error message `Your username is invalid!` is displayed.
 
-**Actual result:** Not executed  
-**Status:** Not Run  
+**Actual result:**
+
+- Login was rejected.
+- Error message `Your username is invalid!` was displayed.
+
+**Status:** Pass  
 **Automation:** Implemented in `selenium-tests`
 
 ---
@@ -72,6 +81,10 @@ Valid password: `Password123`
 - Login is rejected.
 - Error message `Your password is invalid!` is displayed.
 
-**Actual result:** Not executed  
-**Status:** Not Run  
+**Actual result:**
+
+- Login was rejected.
+- Error message `Your password is invalid!` was displayed.
+
+**Status:** Pass  
 **Automation:** Implemented in `selenium-tests`
