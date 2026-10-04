@@ -1,8 +1,8 @@
 # Bug Reports
 
-Reproducible defects found during manual test execution will be documented in this folder.
+No reproducible defects were found during the current manual test execution scope.
 
-Each bug report will include:
+If a defect is found in a future test cycle, the report will include:
 
 - Bug ID
 - Title
@@ -14,5 +14,3 @@ Each bug report will include:
 - Severity
 - Priority
 - Evidence when available
-
-I will only add a bug report after I can reproduce the unexpected behavior.
