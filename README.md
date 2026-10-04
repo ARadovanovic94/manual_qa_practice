@@ -2,22 +2,24 @@
 
 This repository contains my manual testing practice and test documentation.
 
-The current test cases are based on the Practice Test Automation website, which I also use in my Selenium practice project.
+The test cases are based on the Practice Test Automation website, which I also use in my Selenium practice project.
 
 ## Application under test
 
 Practice Test Automation  
 https://practicetestautomation.com/
 
-## Current scope
+## Completed scope
 
-The project currently covers:
+The current manual testing scope covers:
 
-- Login functionality
 - Positive and negative login scenarios
 - Dynamic elements
 - Editing and saving input values
-- Basic synchronization-related scenarios
+- Instructions removed after a page update
+- Delayed element loading
+
+All test cases in the current scope have been executed and produced the expected result.
 
 ## Repository structure
 
@@ -26,25 +28,38 @@ test-cases/
     login-test-cases.md
     exceptions-test-cases.md
 
+test-execution/
+    test-summary.md
+
 bug-reports/
     README.md
 ```
 
 ## Testing approach
 
-For each feature I try to:
+For each feature I:
 
-1. Understand the expected behavior.
-2. Identify positive, negative and relevant edge cases.
-3. Define clear test steps and expected results.
-4. Execute the test manually.
-5. Record the actual result and test status.
-6. Report a defect only when unexpected behavior can be reproduced.
+1. Reviewed the expected behavior.
+2. Identified the test scenarios.
+3. Defined steps and expected results.
+4. Executed the scenarios manually.
+5. Recorded the actual result and status.
+6. Checked whether any reproducible defect should be reported.
 
 ## Manual and automation testing
 
-Some of the scenarios documented here are also used in my Selenium WebDriver practice project:
+Some scenarios from this project are also implemented in my Selenium WebDriver practice repository:
 
 https://github.com/ARadovanovic94/selenium-tests
 
-The goal is to practice the testing flow from a manual scenario to automation where automation makes sense.
+This lets me practice the same functionality from both sides: manual test design and execution first, then automation for suitable repeatable scenarios.
+
+## Result
+
+- Test cases executed: 8
+- Passed: 8
+- Failed: 0
+- Blocked: 0
+- Defects found: 0
+
+See `test-execution/test-summary.md` for the execution summary.
