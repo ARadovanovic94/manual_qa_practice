@@ -22,7 +22,7 @@ The current manual testing scope covers:
 
 All test cases in the current scope have been executed and produced the expected result.
 
-Four additional negative login tests (TC-LOGIN-004–TC-LOGIN-007) were executed manually: 4 passed and 0 failed. Their steps, expected results, actual results, and PASS statuses are documented in [login-edge-cases.md](test-cases/login-edge-cases.md).
+Five additional negative login tests (TC-LOGIN-004–TC-LOGIN-008) were executed manually: 5 passed and 0 failed. Their steps, expected results, actual results, and PASS statuses are documented in [login-edge-cases.md](test-cases/login-edge-cases.md).
 
 ## Repository structure
 
@@ -60,10 +60,10 @@ This lets me practice the same functionality from both sides: manual test design
 
 ## Result
 
-- Test cases executed: 12
-- Passed: 12
+- Test cases executed: 13
+- Passed: 13
 - Failed: 0
 - Blocked: 0
 - Defects found: 0
 
-See `test-execution/test-summary.md` for the original 8-test execution summary and [login-edge-cases.md](test-cases/login-edge-cases.md) for the 4 additional executed tests.
+See `test-execution/test-summary.md` for the original 8-test execution summary and [login-edge-cases.md](test-cases/login-edge-cases.md) for the 5 additional executed tests.
