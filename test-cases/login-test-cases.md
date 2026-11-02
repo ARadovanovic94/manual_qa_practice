@@ -88,3 +88,31 @@ Valid password: `Password123`
 
 **Status:** Pass  
 **Automation:** Implemented in `selenium-tests`
+
+---
+
+### TC-LOGIN-009 — Log out after successful login
+
+**Preconditions:** Login page is available.
+
+**Steps:**
+
+1. Open https://practicetestautomation.com/practice-test-login/.
+2. Enter "student" in the Username field.
+3. Enter "Password123" in the Password field.
+4. Click "Submit".
+5. Confirm successful login.
+6. Click "Log out".
+7. Observe the result.
+
+**Expected result:**
+
+- User is redirected to the login page.
+- The login form is displayed.
+- The successful login page is no longer displayed.
+
+**Actual result:**
+
+After clicking Log out, the login form was displayed again.
+
+**Status:** PASS

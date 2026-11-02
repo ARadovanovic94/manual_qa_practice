@@ -14,6 +14,7 @@ https://practicetestautomation.com/
 The current manual testing scope covers:
 
 - Positive and negative login scenarios
+- Logout after successful login
 - Empty and whitespace-only login credentials
 - Dynamic elements
 - Editing and saving input values
@@ -60,10 +61,10 @@ This lets me practice the same functionality from both sides: manual test design
 
 ## Result
 
-- Test cases executed: 13
-- Passed: 13
+- Test cases executed: 14
+- Passed: 14
 - Failed: 0
 - Blocked: 0
 - Defects found: 0
 
-See `test-execution/test-summary.md` for the original 8-test execution summary and [login-edge-cases.md](test-cases/login-edge-cases.md) for the 5 additional executed tests.
+See `test-execution/test-summary.md` for the original 8-test execution summary, [login-edge-cases.md](test-cases/login-edge-cases.md) for the 5 additional negative tests, and [login-test-cases.md](test-cases/login-test-cases.md#tc-login-009--log-out-after-successful-login) for the 1 logout test.
